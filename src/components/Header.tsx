@@ -1,6 +1,7 @@
 import React from 'react';
 import { ConnectButton } from '@mysten/dapp-kit';
 import { BookOpen } from 'lucide-react';
+import { WalletInfo } from './WalletInfo';
 
 interface HeaderProps {
   activeTab: string;
@@ -43,7 +44,8 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, onTabChange }) => {
 
           {/* Right: wallet */}
           <div className="flex items-center justify-end space-x-4">
-            <ConnectButton />
+            {/* <ConnectButton/> */}
+            <WalletInfo />
           </div>
         </div>
 
