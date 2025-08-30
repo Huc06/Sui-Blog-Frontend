@@ -1,5 +1,4 @@
 import React from 'react';
-import { ConnectButton } from '@mysten/dapp-kit';
 import { BookOpen } from 'lucide-react';
 import { WalletInfo } from './WalletInfo';
 
